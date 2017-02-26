@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+$translucent-white: rgba(255,255,255,0.8);
+
+.banner {
+  border: {
+    bottom: 4px solid black;
+  }
+  font-family: 'Pacifico', cursive;
+  height: 400px;
+  background-image: url("https://img0.etsystatic.com/115/0/5342408/il_fullxfull.854852348_izfp.jpg");
+  .slogan {
+    border-top: 4px solid black;
+    color: #ee3322;
+    background-color: $translucent-white;
+    position: absolute;
+    border: 4px solid black;
+    top: 200px;
+    left: 25%;
+    width: 50%;
+    height: 200px;
+    text-align: center;
+  }
+  span {
+    font-size: 24px;
+    line-height: 200px;
+  }
+}
+
+.headline {
+  margin-top: 1%;
+  div {
+    text-align: center;
+  }
+}
+
+.content {
+  display:block;
+  .title {
+    margin-bottom: -20px;
+  }
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 70%;
+  height: 10%;
+  margin: auto;
+  div {
+    margin:auto;
+    height: 70px;
+    margin-bottom: 0;
+  }
+  .thumbnail {
+    padding: 0;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .description {
+    padding: 20px 0 17px;
+    margin-left: 30px;
+    padding-left: 30px;
+  }
+}
