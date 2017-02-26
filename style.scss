@@ -1,6 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
 $translucent-white: rgba(255,255,255,0.8);
 
+
+
+// Styling of banner
+
 .banner {
   border: {
     bottom: 4px solid black;
@@ -32,6 +36,9 @@ $translucent-white: rgba(255,255,255,0.8);
     text-align: center;
   }
 }
+
+
+// Styling of main content
 
 .content {
   display:block;
